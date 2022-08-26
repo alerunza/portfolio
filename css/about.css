@@ -1,0 +1,23 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: hidden;
+}
+
+.home {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 250%;
+    user-select: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home:hover{
+    opacity: 0.8;
+}
+
+.home:active{
+    opacity: 0.2;
+}
