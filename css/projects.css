@@ -51,3 +51,36 @@ li a:hover {
 li a:active{
     opacity: 0.2;
 }
+
+.proj{
+    background: #eee;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    padding: 15px;
+    background: #eee;
+    min-width: 30%;
+    max-width: 40%;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    user-select: none;
+}
+
+.testo{
+    font-size: 2vh;
+    margin-top: 1px;
+}
+
+.proj2{
+    background: #eee;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    padding: 15px;
+    background: #eee;
+    min-width: 30%;
+    max-width: 40%;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    user-select: none;
+}
