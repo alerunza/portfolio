@@ -9,8 +9,52 @@
 </head>
 <body>
     <header>
-        <a class="home" href="../index.html">chubs</a>
-        <p class="title">-about</p>
+        <a class="home" href="../index.html"><strong>chubs</strong>/about-me</a>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#">projects</a></li>
+          </ul>
+    </nav>
+    <figure>
+        <blockquote>
+            <p>Who am i? Of course you don't know, but i'll tell you about me in a few words... 
+                I'm Alessandro from Italy (Sicily) an High School Student 4th grade in IT & Electronics; i like to dev useless things like this site or c++ programs 😊, but my dream is to reach the top of developing, the knowledge to create what i dreamed, so from dream to reality! My hobby is to play to videogames like Valorant, Minecraft and other games with my friends to take a break from the real world.</p>
+        </blockquote>
+        <figcaption>alessandro, <cite>kind of dev</cite></figcaption>
+    </figure>
+    <p class="contact-title">Contact me</p>
+    <div class="contact">
+        <div class="box-contact">
+            <form class="fcf-form-class" method="post" action="contact-form-process.php">
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">email</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="send-button">send (WIP)</button>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>

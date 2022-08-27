@@ -70,7 +70,7 @@ h2{
 }
 
 .p-button{
-    background-color: rgb(79, 79, 79);
+    background-color: #189a57;
     border: none;
     border-radius: 18px;
     color: white;
@@ -116,7 +116,7 @@ h2{
 }
 
 .area{
-    background: #33ec6a;  
+    background: #189a57;  
     background: -webkit-linear-gradient(to left, #046727, #046727);
     position: absolute;
     top: 10%;
