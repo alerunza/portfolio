@@ -75,12 +75,12 @@ h2{
     border-radius: 18px;
     color: white;
     margin-top: 15.2%;
-    margin-left: 6%;
+    margin-left: 2.5%;
     cursor: pointer;
     height: 35px;
     width: 7%;
     user-select: none;
-    font-size: 160%;
+    font-size: 140%;
     font-weight: bold;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -99,6 +99,14 @@ h2{
     bottom: 1%;
     font-size: 40px;
     user-select: none;
+}
+
+.socials:hover{
+    opacity: 0.8;
+}
+
+.socials:active{
+    opacity: 0.3;
 }
 
 /* wallpaper */

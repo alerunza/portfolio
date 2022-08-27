@@ -26,35 +26,17 @@
     <p class="contact-title">Contact me</p>
     <div class="contact">
         <div class="box-contact">
-            <form class="fcf-form-class" method="post" action="contact-form-process.php">
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">email</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="send-button">send (WIP)</button>
-                </div>
-        
-            </form>
+            <form action="mailto:nutazyt.steam@gmail.com" method="post" enctype="text/plain">
+                name<br>
+                <input type="text" name="name" required><br>
+                email<br>
+                <input type="email" name="mail" required><br>
+                message<br>
+                <input type="text" name="comment" size="20" required><br><br>
+                <input class="send-button" type="submit" value="send">
+                <input class="send-button" type="reset" value="reset">
+                </form>
         </div>
     </div>
-
 </body>
 </html>

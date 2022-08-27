@@ -88,8 +88,8 @@ figcaption{
     font-size: 3vh;
     position: absolute;
     top: 7%;
-    user-select: none;
     right: 2.5%;
+    user-select: none;
 }
 
 .box-contact{
@@ -111,8 +111,8 @@ figcaption{
     border-radius: 18px;
     color: white;
     cursor: pointer;
-    height: 45px;
-    width: 65%;
+    height: 30px;
+    width: 40%;
     user-select: none;
     font-size: 80%;
     font-weight: bold;
