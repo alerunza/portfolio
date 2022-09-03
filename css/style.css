@@ -1,13 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: hidden;
 }
 
 .home {
-    position: absolute;
-    top: 1%;
-    left: 1%;
     font-size: 250%;
+    margin-left: 10%;
     user-select: none;
     color: black;
     text-decoration: none;
@@ -20,6 +23,16 @@ body {
 
 .home:active{
     opacity: 0.2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-top: 10%;
+    margin-left: 1%;
 }
 
 ul {
@@ -52,19 +65,15 @@ li a:active{
     opacity: 0.2;
 }
 
-h2{
-    position: absolute;
-    top: 20%;
-    left: 1%;
+h1{
     font-size: 300%;
     user-select: none;
 }
 
 .quote{
     font-size: 190%;
-    position: absolute;
-    top: 22.5%;
-    left: 1.5%;
+    margin: 10px 0;
+    margin: 10px 0 40px 0;
     user-select: none;
     font-weight: normal;
 }
@@ -75,14 +84,14 @@ h2{
     border-radius: 18px;
     color: white;
     margin-top: 15.2%;
-    margin-left: 2.5%;
+    margin-left: 0.5%;
+    padding: 5px 15px;
     cursor: pointer;
-    height: 35px;
-    width: 7%;
     user-select: none;
     font-size: 140%;
     font-weight: bold;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
 
 .p-button:hover{
@@ -95,9 +104,9 @@ h2{
 
 .social {
     position: absolute;
-    right: 1%;
+    left: 1%;
     bottom: 1%;
-    font-size: 40px;
+    font-size: 50px;
     user-select: none;
 }
 
@@ -248,6 +257,5 @@ footer{
     position: absolute;
     bottom: 0;
     left: 50%;
-    right: inherit;
     user-select: none;
 }
