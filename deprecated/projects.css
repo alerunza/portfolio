@@ -1,17 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: hidden;
 }
 
 .home {
-    position: absolute;
-    top: 1%;
-    left: 1%;
+    margin-left: 10%;
     font-size: 250%;
     user-select: none;
     color: black;
     text-decoration: none;
-    font-weight: light;
+    font-weight: bold;
 }
 
 .home:hover{
@@ -20,6 +23,11 @@ body {
 
 .home:active{
     opacity: 0.2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
