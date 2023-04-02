@@ -73,6 +73,7 @@ ul li a{
     color: black;
     text-decoration: none;
     line-height: 25px;
+    font-size: 20px;
 }
 
 article.panel#about{
@@ -126,7 +127,7 @@ a[id="skills"]:target ∼ #main article.panel{
     transform: translateY(-1500px);
 }
 
-a[id="certs"]:target ∼ #main article.panel{
+a[id="proj"]:target ∼ #main article.panel{
     transform: translateY(-1000px);
 }
 
