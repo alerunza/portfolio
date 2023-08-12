@@ -11,7 +11,6 @@ body {
     user-select: none;
     overflow: hidden;
 }
-
 @keyframes particles {
     0% {
       transform: translateY(0px);
@@ -22,9 +21,22 @@ body {
   }
   
   .space {
-    min-height: 1000vh;
+    min-height: 100vh;
     background: radial-gradient(ellipse at bottom, #224431 0%, #090f09 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
+  h2 {
+    position: relative;
+    z-index: 2;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+  }
+
   
   .particle,
   .particle::after {
