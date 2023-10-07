@@ -21,8 +21,11 @@ h1{
 }
 
 h3{
+    user-select: text;
     font-weight: 400;
     font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a{
