@@ -1,18 +1,19 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 1.5rem;
     user-select: none;
-}
-
-main{
-    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 h1{
@@ -20,7 +21,6 @@ h1{
 }
 
 h3{
-    margin-top: 15px;
     font-weight: 400;
     font-style: italic;
 }
