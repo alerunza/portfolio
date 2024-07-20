@@ -1,77 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 body {
-    font-size: 1.5rem;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-h1{
-    font-size: 4rem !important;
+h1 {
+  user-select: none;
+  font-size: 3.2em;
+  line-height: 1.1;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
-h3{
-    user-select: text;
-    font-weight: 400;
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-a{
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.9rem;
-    color: #238542;
+h1:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-a:hover{
-    transition: 0.2s ease-in-out;
-    color: #000;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
 }
-
-.loader {
-    padding: 20px;
-    position: relative;
-  }
-  
-  .loader span {
-    position: absolute;
-    color: #fff;
-    transform: translate(-50%, -50%);
-    font-size: 2.8rem;
-    letter-spacing: 5px;
-    font-weight: 900;
-  }
-  
-  .loader span:nth-child(1) {
-    color: rgba(0, 0, 0, 0.047);
-    -webkit-text-stroke: 0.1px #000;
-  }
-  
-  .loader span:nth-child(2) {
-    color: #238542;
-    animation: uiverse723 2.5s ease-in-out infinite;
-  }
-  
-  @keyframes uiverse723 {
-    0%, 100% {
-      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
-       54% 60%, 70% 61%, 89% 59%, 100% 52%, 100% 100%, 0% 100%);
-    }
-  
-    50% {
-      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
-       51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-    }
-  }
