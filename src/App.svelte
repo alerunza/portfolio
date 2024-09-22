@@ -13,6 +13,9 @@
       <a href="https://github.com/alerunza" target="_blank" aria-label="GitHub" class="text-gray-400 hover:text-white">
         <i class="fab fa-github fa-2x"></i>
       </a>
+      <a href="https://linkedin.com/in/alerunza" target="_blank" aria-label="Twitter" class="text-gray-400 hover:text-white">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
       <a href="https://twitter.com/alerunza" target="_blank" aria-label="Twitter" class="text-gray-400 hover:text-white">
         <i class="fab fa-x-twitter fa-2x"></i>
       </a>
